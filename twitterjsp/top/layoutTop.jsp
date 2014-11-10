@@ -1,0 +1,249 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>MuteSearchTwitter verson.β</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h3>
+				MuteSearchTwitter version.β
+			</h3>
+			<nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">ミュート#タグ[ハッシュタグ]</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" value = "#" class="form-control">
+						</div> <button type="submit" class="btn btn-default">Search</button>
+					</form>
+				</div>
+				
+			</nav>
+			<div class="row clearfix">
+				<div class="col-md-4 column">
+					<form role="form" class="form-inline">
+						<!-- div class="form-group">
+							 <label for="exampleInputEmail1">Tweet</label><input type="email" class="form-control" id="exampleInputEmail1">
+							 <button type="submit" class="btn btn-default">doing</button>
+						</div -->
+						<!-- div class="form-group">
+							 <label for="exampleInputFile">File input</label><input type="file" id="exampleInputFile">
+							<p class="help-block">
+								Example block-level help text here.
+							</p>
+						</div -->
+						 
+					</form>
+				</div>
+				<div class="col-md-8 column">
+					<div class="row clearfix">
+						<div class="col-md-6 column">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>
+											TimeLine
+										</th>
+									</tr>
+								</thead>
+								<!-- tbody>
+									<tr>
+										<td>
+											1
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											01/04/2012
+										</td>
+										<td>
+											Default
+										</td>
+									</tr >
+									<tr class="active">
+										<td>
+											1
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											01/04/2012
+										</td>
+										<td>
+											Approved
+										</td>
+									</tr>
+									<tr class="success">
+										<td>
+											2
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											02/04/2012
+										</td>
+										<td>
+											Declined
+										</td>
+									</tr>
+									<tr class="warning">
+										<td>
+											3
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											03/04/2012
+										</td>
+										<td>
+											Pending
+										</td>
+									</tr>
+									<tr class="danger">
+										<td>
+											4
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											04/04/2012
+										</td>
+										<td>
+											Call in to confirm
+										</td>
+									</tr>
+								</tbody -->
+							</table>
+						</div>
+						<!-- div class="col-md-6 column">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>
+											RePLY
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											1
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											01/04/2012
+										</td>
+										<td>
+											Default
+										</td>
+									</tr>
+									<tr class="active">
+										<td>
+											1
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											01/04/2012
+										</td>
+										<td>
+											Approved
+										</td>
+									</tr>
+									<tr class="success">
+										<td>
+											2
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											02/04/2012
+										</td>
+										<td>
+											Declined
+										</td>
+									</tr>
+									<tr class="warning">
+										<td>
+											3
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											03/04/2012
+										</td>
+										<td>
+											Pending
+										</td>
+									</tr>
+									<tr class="danger">
+										<td>
+											4
+										</td>
+										<td>
+											TB - Monthly
+										</td>
+										<td>
+											04/04/2012
+										</td>
+										<td>
+											Call in to confirm
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
