@@ -25,10 +25,10 @@ public class UserStream {
 	 *
 	 */
 	//private static final long serialVersionUID = 1L;
-	private static final String CONSUMER_KEY = "NyWI17FHybF8Y49nMnwaQ";
-	private static final String CONSUMER_SECRET = "G0tJg73uMFqMihoxN7MDQsVkvmr3HA2ePUOgrZTPI";
-	private static final String ACCESS_TOKEN = "434641099-vCX4Yr8IimCrSmt0rycNLngAMy5ATCCAHEKYL8qI";
-	private static final String ACCESS_TOKEN_SECRET = "aQXkx5htU5l8iD0n1zk7QjP1BphhqBGEDWycxLAWIv5qG";
+	private static final String CONSUMER_KEY = "";
+	private static final String CONSUMER_SECRET = "";
+	private static final String ACCESS_TOKEN = "";
+	private static final String ACCESS_TOKEN_SECRET = "";
 
 	private static Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
