@@ -6,11 +6,11 @@
 <web-app>
   <context-param>
   	<param-name>CONSUMERKEY</param-name>
-  	<param-value>Hl01c6RWUt9NcoFb8wsDLg</param-value>
+  	<param-value></param-value>
   </context-param>
   <context-param>
   	<param-name>CONSUMERSECRET</param-name>
-  	<param-value>XtSPHaiT7e0byAE7H2zseIeaKG0kEztdn7he4qo4V0</param-value>
+  	<param-value></param-value>
   </context-param>
   <!-- (2)servletタグの設定 -->
   <servlet>
