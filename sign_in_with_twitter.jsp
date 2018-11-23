@@ -13,7 +13,7 @@
 <%
 	//Twitter4j初期化
 	Twitter twitter = new TwitterFactory().getInstance();
-	twitter.setOAuthConsumer("NyWI17FHybF8Y49nMnwaQ", "G0tJg73uMFqMihoxN7MDQsVkvmr3HA2ePUOgrZTPI");
+	twitter.setOAuthConsumer("", "");
 
 	String command = request.getParameter("command");
 
