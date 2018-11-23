@@ -18,8 +18,8 @@ public class DBOP {
 	
 	protected static Connection getConnection() throws SQLException {
 		String url = "jdbc:mysql://localhost/twitterdb";
-		String user = "miki";
-		String pass = "takashiroot";
+		String user = "";
+		String pass = "";
 		
 		Connection conn = DriverManager.getConnection(url, user, pass);
 		conn.setAutoCommit(false);
